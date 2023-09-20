@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 100vw; 
+    height: 108px;
+    display: flex;
+    border: 1px black solid;
+}
+
+header>div{
+    width: 20%;
+    border: 1px black solid;
+
+}
+
+nav{
+    width: 80%;
+    border: 1px black solid;
+}
+
+main{
+    width: 100vw; 
+    height: 3060px;
+    border: 1px black solid;
+    padding: 100px;
+}
+
+
+.movie{
+    height: 20%;
+    display: flex;
+}
+
+
+.movie>div:nth-child(1){
+    width: 30%;
+    border: 1px black solid;
+    background-image: url(이미지/영화\ 포스터.png);
+
+}
+
+
+.movie>div:nth-child(2){
+    width: 70%;
+    border: 1px black solid;
+}
+
+.movie_title{
+    display: flex;
+    
+}
+
+.movie_title>div:nth-child(1){
+    width: 10%;
+}
+
+.movie_title>div:nth-child(2){
+    width: 60%;
+}
+
+.movie_title>div:nth-child(3){
+    width: 30%;
+}
+
+
+
+
+
+
+
+main>div:nth-child(2){
+    height: 20%;
+    border: 1px black solid;
+}
+
+
+main>div:nth-child(3){
+    height: 40%;
+    border: 1px black solid;
+}
+
+
+main>div:nth-child(4){
+    height: 20%;
+    border: 1px black solid;
+}

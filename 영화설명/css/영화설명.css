@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 100vw; 
+    height: 108px;
+    display: flex;
+    border: 1px black solid;
+}
+
+header>div{
+    width: 20%;
+    border: 1px black solid;
+
+}
+
+nav{
+    width: 80%;
+    border: 1px black solid;
+}
+
+main{
+    width: 100vw; 
+    height: 3060px;
+    border: 1px black solid;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.movie{
+    height: 20%;
+    display: flex;
+}
+
+
+.movie>div:nth-child(1){
+    width: 30%;
+    border: 1px black solid;
+    background-image: url(이미지/영화\ 포스터.png);
+
+}
+
+
+.movie>div:nth-child(2){
+    width: 70%;
+    border: 1px black solid;
+}
+
+.movie_title{
+    display: flex;
+    
+}
+
+.movie_title>div:nth-child(1){
+    width: 10%;
+}
+
+.movie_title>div:nth-child(2){
+    width: 60%;
+}
+
+.movie_title>div:nth-child(3){
+    width: 30%;
+}
+
+/* --------------------------------------------- */
+
+/* 영화 예매 */
+
+.movieP2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #383B3E;
+    padding: auto;
+    height: 650px;
+    margin-top: 60px;
+}
+
+.mp2Head {
+    height: 115px;
+}
+
+.line1 {
+    height: 162px;
+    display: flex;
+
+}
+
+.l1-1 {
+    width: 400px;
+}
+
+.l1-2 {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l1-3 {
+    width: auto;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.line2 {
+    height: 162px;
+    display: flex;
+}
+
+.line3 {
+    height: 162px;
+    display: flex;
+    
+}
+
+.l1-1 img {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+
+#mm {
+    color: white;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#ms {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    margin-left: 18%;
+}
+
+
+#my {
+    text-decoration: none ;
+    color: #7EDCF0;
+    margin-left: 280px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.l2-1 {
+    width: 400px;
+}
+
+.l2-2 {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l2-3 {
+    width: auto;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.line2 {
+    height: 162px;
+    display: flex;
+}
+
+.l2-1 img {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+
+
+.l3-1 {
+    width: 400px;
+}
+
+.l3-2 {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l3-3 {
+    width: auto;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.l3-1 img {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+/****************************************************************/
